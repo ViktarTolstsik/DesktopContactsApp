@@ -25,6 +25,9 @@ namespace DesktopContactsApp
         public NewContactWindow()
         {
             InitializeComponent();
+
+            Owner = Application.Current.MainWindow;
+            WindowStartupLocation = WindowStartupLocation.CenterOwner;
         }
 
         private void saveButton_Click(object sender, RoutedEventArgs e)
