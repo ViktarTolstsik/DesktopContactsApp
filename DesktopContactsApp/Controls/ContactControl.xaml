@@ -8,12 +8,18 @@
              d:DesignHeight="75" d:DesignWidth="300">
     <Grid Background="#AAF0F8FF">
         <StackPanel>
-            <TextBlock Text="Name Lastname" FontSize="20"
-                                   FontWeight="Bold"/>
-            <TextBlock Text="example@domain.com" FontSize="15"
-                                   Foreground="DodgerBlue"/>
-            <TextBlock Text="(123) 456 78 90" FontSize="15"
-                                   FontStyle="Italic"/>
+            <TextBlock x:Name="nameTextBlock" 
+                       Text="Name Lastname" 
+                       FontSize="20"
+                       FontWeight="Bold"/>
+            <TextBlock x:Name="emailTextBlock" 
+                       Text="example@domain.com" 
+                       FontSize="15"
+                       Foreground="DodgerBlue"/>
+            <TextBlock x:Name="phoneTextBlock" 
+                       Text="(123) 456 78 90" 
+                       FontSize="15"
+                       FontStyle="Italic"/>
         </StackPanel>
     </Grid>
 </UserControl>
